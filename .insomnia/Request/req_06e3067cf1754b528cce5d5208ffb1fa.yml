@@ -1,0 +1,21 @@
+_id: req_06e3067cf1754b528cce5d5208ffb1fa
+type: Request
+parentId: wrk_9469607c859d48059f69a290e23463b8
+modified: 1624486795666
+created: 1624486752879
+url: "{{ _.base_url }}/todo"
+name: /todo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1624486752879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
