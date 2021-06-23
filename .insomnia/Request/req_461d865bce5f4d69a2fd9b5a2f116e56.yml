@@ -1,0 +1,69 @@
+_id: req_461d865bce5f4d69a2fd9b5a2f116e56
+type: Request
+parentId: fld_f34b8f1a63f44de598e1db027bb90bb0
+modified: 1624487944775
+created: 1624487944775
+url: "{{ base_url  }}/{{ resource  }}"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      disabled: true
+      fileName: /home/erodrigues/Pictures/hero-1.jpeg
+      id: pair_bf79b8ca253f40f788bbcc9f6f41d021
+      name: image
+      type: file
+      value: ""
+    - description: ""
+      id: pair_7496a54e906e447f80bae1f073c6c816
+      name: name
+      value: 1x week sauna
+    - description: ""
+      id: pair_79947c2fabf44e3ea66971bc57c850c1
+      name: description
+      value: recorrencia semanal
+    - description: ""
+      id: pair_0703429db3b248428c303ce3d8764000
+      name: price
+      value: "123.45"
+    - name: categoryId
+      value: "15"
+      description: ""
+      id: pair_60ab74937a3748748e7bf42c070c39fa
+    - name: recurrencyPay
+      value: weekly
+      description: ""
+      id: pair_f8604b046a384bfd894383f3c9061afc
+    - name: type
+      value: appointments
+      description: ""
+      id: pair_1e0f5ebf4dd04a97b25c333f3c4c8d2f
+    - name: total
+      value: "200.49"
+      description: ""
+      id: pair_63f609aa42874d89a3ff405dfb0df318
+      disabled: true
+    - description: ""
+      disabled: false
+      id: pair_a9f853f372554202907537f31f76db44
+      name: activities[]
+      value: '{ "id": 6, "quantity": 1 }'
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585779344099.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

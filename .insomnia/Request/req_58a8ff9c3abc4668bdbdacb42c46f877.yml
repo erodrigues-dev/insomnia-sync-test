@@ -1,0 +1,35 @@
+_id: req_58a8ff9c3abc4668bdbdacb42c46f877
+type: Request
+parentId: fld_c87ce9a5b4b64ed6a6822ee2d9eb01db
+modified: 1624487944791
+created: 1624487944791
+url: "{{ base_url }}/{{ resource }}"
+name: store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"customerId": 1,
+    	"type": "amount",
+    	"value": 40,
+    	"relationType": "activity",
+    	"relationId": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b571b7a3ef7b446c940f37996c22c3d5
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1603026005172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

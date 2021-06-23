@@ -1,0 +1,38 @@
+_id: req_65032e8149ea49e1b5072d0c3d4b714e
+type: Request
+parentId: fld_35b5a6e8d70a4fe5b127098581033096
+modified: 1624487944782
+created: 1624487944782
+url: "{{ base_url }}/activities/{{9}}/schedules"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: start
+    value: 2020-12-01T00:00Z
+    description: ""
+    id: pair_9286a8ef700e473f9ffb0ee3d4036e73
+    disabled: false
+  - name: end
+    value: 2020-12-31T00:00Z
+    description: ""
+    id: pair_e2ab417a141a40739a0dd353e661fd3c
+    disabled: false
+  - name: activityId
+    value: ""
+    description: ""
+    id: pair_003d3b5e1e8242fba470b47a5bc2730b
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1599799879193.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

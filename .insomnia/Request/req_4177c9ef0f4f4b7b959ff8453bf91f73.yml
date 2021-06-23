@@ -1,0 +1,23 @@
+_id: req_4177c9ef0f4f4b7b959ff8453bf91f73
+type: Request
+parentId: fld_146d5e1d8c3b455eb86fcf752caa94d2
+modified: 1624487944832
+created: 1624487944832
+url: "{{ _.base_url }}/customers/16/waivers/14"
+name: /
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1619944454367.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

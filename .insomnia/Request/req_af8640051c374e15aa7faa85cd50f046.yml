@@ -1,0 +1,23 @@
+_id: req_af8640051c374e15aa7faa85cd50f046
+type: Request
+parentId: fld_c1d67076300545dda90044e918e2ccf4
+modified: 1624487955227
+created: 1624487955227
+url: "{{ _.base_url }}/site/waivers/by-activity/9"
+name: /by-activity/:activityId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1623796500622
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

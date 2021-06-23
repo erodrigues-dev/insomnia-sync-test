@@ -1,0 +1,33 @@
+_id: req_10dd8269db6c4f7a917c8ab6e5a98dfd
+type: Request
+parentId: fld_ef1a0d51a9854aec9c7ad9403e8a45f8
+modified: 1624487951185
+created: 1624487951185
+url: "{{ base_url  }}/webhooks/subscription"
+name: subcription
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "event":"subscription.update"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_50bb9d0ed0334bea8afde8c0622b4b97
+  - name: x-square-signature
+    value: asdasd=
+    description: ""
+    id: pair_1ff5346be9cf4d16ad0a972ac58f7e12
+authentication: {}
+metaSortKey: -1607188686809
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

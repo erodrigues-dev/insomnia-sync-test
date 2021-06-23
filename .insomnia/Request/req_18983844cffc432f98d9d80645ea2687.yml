@@ -1,0 +1,32 @@
+_id: req_18983844cffc432f98d9d80645ea2687
+type: Request
+parentId: fld_dab82b6ca2f9421fbd9acc82db200a4c
+modified: 1624487944825
+created: 1624487944825
+url: "{{ _.base_url }}/waivers"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "title": "any other",
+      "text": "any text"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8419d1555b414ace89b2b1b8baf1515a
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1619209680869
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

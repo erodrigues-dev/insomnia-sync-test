@@ -1,0 +1,23 @@
+_id: req_1e286c4ce23c4396aeeca7d24ff13e4e
+type: Request
+parentId: fld_7f912d13ffe74eaa8856f6b178d1891b
+modified: 1624487944798
+created: 1624487944798
+url: "{{ base_url }}/orders/{{ 31 }}/cancel"
+name: :id/cancel
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1604593826175.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

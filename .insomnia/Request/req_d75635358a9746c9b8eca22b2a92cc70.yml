@@ -1,0 +1,42 @@
+_id: req_d75635358a9746c9b8eca22b2a92cc70
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944843
+created: 1624487944843
+url: "{{ _.base_url }}/workout-profiles"
+name: /profiles
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: customer
+    value: clark
+    description: ""
+    id: pair_5ddc51e2aeec43a586606a51c2846c2f
+    disabled: true
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_f3afec666a6e425995e1a14beedbc88c
+    disabled: true
+  - name: limit
+    value: "1"
+    description: ""
+    id: pair_88db16e094f849db8529f0b8d6c79c19
+    disabled: true
+headers:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624314776820
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

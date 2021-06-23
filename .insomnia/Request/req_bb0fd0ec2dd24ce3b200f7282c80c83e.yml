@@ -1,0 +1,34 @@
+_id: req_bb0fd0ec2dd24ce3b200f7282c80c83e
+type: Request
+parentId: fld_e2f1cc36718f4cc186ef23315a203ca7
+modified: 1624487944804
+created: 1624487944804
+url: "{{ _.base_url }}/schedules"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customerId": 16,
+    	"orderActivityId": 1,
+    	"activityScheduleId": 29,
+    	"date": "2021-06-08"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_50e01f42ba2f4dcfa83d5d873a02b461
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1608165476017
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

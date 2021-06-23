@@ -1,0 +1,27 @@
+_id: req_4ac92f04691b413b831620d5fe2bac30
+type: Request
+parentId: fld_146d5e1d8c3b455eb86fcf752caa94d2
+modified: 1624487944830
+created: 1624487944830
+url: "{{ _.base_url }}/customers/16/waivers"
+name: /
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+  - name: limit
+    value: "10"
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1621094012006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

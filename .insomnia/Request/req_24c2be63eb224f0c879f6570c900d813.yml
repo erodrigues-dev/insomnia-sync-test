@@ -1,0 +1,24 @@
+_id: req_24c2be63eb224f0c879f6570c900d813
+type: Request
+parentId: fld_7d4ff788d48243eaa310d5624eb8e14f
+modified: 1624487955210
+created: 1624487955210
+url: "{{ _.base_url }}/site/account/generate-referral-code"
+name: /generate-referral-code
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+  disabled: false
+metaSortKey: -1614280156404.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

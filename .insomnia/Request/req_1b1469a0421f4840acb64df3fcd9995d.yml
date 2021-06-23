@@ -1,0 +1,23 @@
+_id: req_1b1469a0421f4840acb64df3fcd9995d
+type: Request
+parentId: fld_35b5a6e8d70a4fe5b127098581033096
+modified: 1624487944783
+created: 1624487944783
+url: "{{ base_url }}/activities/{{ 6 }}/schedules/days/{{ '2021-01-28' }}/times"
+name: times
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1599120570940.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

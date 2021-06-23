@@ -1,0 +1,38 @@
+_id: req_c187ef4813e44faa8d8d7fa3d745bbc4
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944840
+created: 1624487944840
+url: "{{ _.base_url }}/workout-logs/5"
+name: /logs
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"workoutProfileId": 7,
+    	"resume": "any_resume_update",
+    	"date": "2021-06-21T22:00:00",
+    	"notes": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b56edf769be74675b616fed839d27c43
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624044152516.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

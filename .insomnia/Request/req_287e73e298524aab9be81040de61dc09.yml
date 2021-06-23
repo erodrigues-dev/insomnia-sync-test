@@ -1,0 +1,30 @@
+_id: req_287e73e298524aab9be81040de61dc09
+type: Request
+parentId: fld_9c2955f709d342b0a269d38bd2c157af
+modified: 1624487955192
+created: 1624487955192
+url: "{{ _.base_url }}/site/sessions/send-confirmation-code"
+name: /send-code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "New User",
+      "email":"newuser@trash-mail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a37522a44ff44cada8f5fd56abaa1e9c
+authentication: {}
+metaSortKey: -1613681798916.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,35 @@
+_id: req_d7cdd30aaa0d4de5990024c867f09687
+type: Request
+parentId: fld_7d4ff788d48243eaa310d5624eb8e14f
+modified: 1624487955206
+created: 1624487955206
+url: "{{ _.base_url }}/site/account/change-image"
+name: /change-image
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: image
+      value: ""
+      description: ""
+      id: pair_8f6a241c18994822beda33e7ee360da1
+      type: file
+      fileName: /home/erodrigues/Pictures/alicia_clark.png
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_57cff70a8d7e4310acc6ebfc1237969a
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+  disabled: false
+metaSortKey: -1614280156529.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

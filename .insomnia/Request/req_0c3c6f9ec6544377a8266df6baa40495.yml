@@ -1,0 +1,41 @@
+_id: req_0c3c6f9ec6544377a8266df6baa40495
+type: Request
+parentId: fld_c87ce9a5b4b64ed6a6822ee2d9eb01db
+modified: 1624487944795
+created: 1624487944795
+url: "{{ base_url }}/{{ resource }}/find/1/activity/3"
+name: find
+description: |-
+  params: 
+
+  `find/:customerId/:relationType/:relationId`
+method: GET
+body: {}
+parameters:
+  - name: customerId
+    value: "1"
+    description: ""
+    id: pair_02291c04d211484c9d17e1a7dacdb4f3
+    disabled: true
+  - name: relationType
+    value: package
+    description: ""
+    id: pair_50855fdd8c694e33a1ede8925036846c
+    disabled: true
+  - name: relationId
+    value: "1"
+    description: ""
+    id: pair_5507916d6a9441509efc7b3bce3d1d0e
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1603078824709.5
+isPrivate: false
+settingStoreCookies: false
+settingSendCookies: false
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

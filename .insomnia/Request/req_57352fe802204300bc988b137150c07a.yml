@@ -1,0 +1,34 @@
+_id: req_57352fe802204300bc988b137150c07a
+type: Request
+parentId: fld_e9533a7462e640ba931aa7480f15deb3
+modified: 1624487944788
+created: 1624487944788
+url: "{{ base_url  }}/{{ resource  }}"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 1,
+      "name": "category 001 -update-",
+    	"type": "activity"
+    }
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: application/json
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585685119676.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

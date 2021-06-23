@@ -1,0 +1,49 @@
+_id: req_512f900bbaf544f697a72bba302960ac
+type: Request
+parentId: fld_f34b8f1a63f44de598e1db027bb90bb0
+modified: 1624487944774
+created: 1624487944774
+url: "{{ base_url  }}/{{ resource  }}"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    disabled: false
+    id: pair_182e90aee9a54c3598a8fdda52c37c33
+    name: page
+    value: "1"
+  - description: ""
+    disabled: false
+    id: pair_80a687ec4dc94a20bb53dd4bcc99da1f
+    name: limit
+    value: "2"
+  - description: ""
+    disabled: true
+    id: pair_1a308936e49641d7a76ce15b0e169313
+    name: name
+    value: "002"
+  - description: ""
+    disabled: true
+    id: pair_5ee8d00435ad4065956833e19935f167
+    name: activityName
+    value: "001"
+  - name: categoryId
+    value: "1"
+    description: ""
+    id: pair_737a9632d6ed44e1a15847e5880610b9
+    disabled: true
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585967792996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

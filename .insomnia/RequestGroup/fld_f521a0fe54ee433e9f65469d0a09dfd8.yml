@@ -1,0 +1,13 @@
+_id: fld_f521a0fe54ee433e9f65469d0a09dfd8
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944706
+created: 1624487944706
+name: activities
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022100958

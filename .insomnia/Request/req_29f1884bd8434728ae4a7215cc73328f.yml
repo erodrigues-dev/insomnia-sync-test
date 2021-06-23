@@ -1,0 +1,33 @@
+_id: req_29f1884bd8434728ae4a7215cc73328f
+type: Request
+parentId: fld_ff5651c5d9fa4497b366a50b571ac083
+modified: 1624487955223
+created: 1624487955223
+url: "{{ _.base_url }}/site/book"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "activity_id": 9,
+      "slot_id": 1,
+      "date": "2021-05-05"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_cc76fbde6fc9449594efa60a973fdc10
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1616791259197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

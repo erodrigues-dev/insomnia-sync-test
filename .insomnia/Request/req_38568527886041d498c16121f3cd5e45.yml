@@ -1,0 +1,82 @@
+_id: req_38568527886041d498c16121f3cd5e45
+type: Request
+parentId: fld_f521a0fe54ee433e9f65469d0a09dfd8
+modified: 1624487944750
+created: 1624487944750
+url: "{{ base_url  }}/{{ resource  }}"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      fileName: /home/erodrigues/Downloads/Wallpapers NLW/2560x1600.jpg
+      id: pair_c3bec0cd51a74fbebfd38a04a89bfe4e
+      name: image
+      type: file
+      value: ""
+      disabled: true
+    - description: ""
+      id: pair_7a873613a9f54acab3709338afabde39
+      name: id
+      value: "17"
+    - description: ""
+      id: pair_f07f2cf951e64f129487e23aca56ec2d
+      name: name
+      value: updated
+    - description: ""
+      id: pair_b0e60951ff37400da64476054c188191
+      name: description
+      value: description activity
+    - description: ""
+      id: pair_d57e231f19d4484fbe991bcddc354a63
+      name: price
+      value: "250"
+    - description: ""
+      id: pair_01b895bc8f0c4d0e8c85e72b9d544d5f
+      name: duration
+      value: "60"
+    - description: ""
+      id: pair_9fddbc175ca74ecf9cc5cd317f3eb634
+      name: employeeId
+      value: "1"
+    - name: categoryId
+      value: "1"
+      description: ""
+      id: pair_bfa699971c4042cda4d8f67ce74d124e
+    - name: showInApp
+      value: "true"
+      description: ""
+      id: pair_409794e17c704f3ba617eafdd9641fb0
+      disabled: false
+    - name: showInWeb
+      value: "true"
+      description: ""
+      id: pair_48d99956af02436298a1eadc425c0875
+      disabled: false
+    - name: maxPeople
+      value: "1"
+      description: ""
+      id: pair_0f7d6406788346349b3b22f5c61244cc
+      disabled: true
+    - name: waiverId
+      value: "14"
+      description: ""
+      id: pair_f52ad3210196428abaac91156818e98f
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585755787993.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

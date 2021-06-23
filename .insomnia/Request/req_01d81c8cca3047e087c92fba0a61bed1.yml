@@ -1,0 +1,27 @@
+_id: req_01d81c8cca3047e087c92fba0a61bed1
+type: Request
+parentId: fld_ff5651c5d9fa4497b366a50b571ac083
+modified: 1624487955222
+created: 1624487955222
+url: "{{ _.base_url }}/site/book/slots"
+name: /slots
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: activity_id
+    value: "9"
+  - name: day
+    value: 2021-05-07
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1616814724734
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

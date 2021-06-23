@@ -1,0 +1,44 @@
+_id: req_3edc527fed144643b1955c174effc4de
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944837
+created: 1624487944837
+url: "{{ _.base_url }}/workout-profiles"
+name: /profiles
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"customerId": 15,
+    	"age": 36,
+    	"height": "1'34",
+    	"weight": 80,
+    	"goal": "any_goal",
+    	"test1": "any_test1",
+    	"test2": "any_test3",
+    	"injuriesLimitations": "any_limitation",
+    	"experienceLevel": "any_experience_level",
+    	"notes": "any_note"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b56edf769be74675b616fed839d27c43
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624314776770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

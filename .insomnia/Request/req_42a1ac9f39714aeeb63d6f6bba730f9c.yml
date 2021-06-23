@@ -1,0 +1,38 @@
+_id: req_42a1ac9f39714aeeb63d6f6bba730f9c
+type: Request
+parentId: fld_c1d67076300545dda90044e918e2ccf4
+modified: 1624487955230
+created: 1624487955230
+url: "{{ _.base_url }}/site/waivers/sign"
+name: /sign
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: signImage
+      value: ""
+      description: ""
+      id: pair_ffe9e0b65c654b9390b4a05a7abf5cab
+      type: file
+      fileName: /home/erodrigues/Pictures/sign_01.png
+    - name: waiverId
+      value: "15"
+      description: ""
+      id: pair_771d78a092e24969b92665cbdda1d5eb
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_72c78644495f47bdbefaec0d1bd80fbc
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1623784889649.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

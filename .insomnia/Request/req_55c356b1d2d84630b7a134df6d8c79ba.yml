@@ -1,0 +1,23 @@
+_id: req_55c356b1d2d84630b7a134df6d8c79ba
+type: Request
+parentId: fld_d5faa23d7486458b9c616edf8820d298
+modified: 1624487944801
+created: 1624487944801
+url: "{{ base_url }}/checkout/customers/1/cards"
+name: /customers/:customerId/cards
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1605018252304
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

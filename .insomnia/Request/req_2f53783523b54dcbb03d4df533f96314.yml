@@ -1,0 +1,39 @@
+_id: req_2f53783523b54dcbb03d4df533f96314
+type: Request
+parentId: fld_d5faa23d7486458b9c616edf8820d298
+modified: 1624487944802
+created: 1624487944802
+url: "{{ base_url }}/checkout/pay-with-card"
+name: pay-with-card
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "customerId":1,
+      "itemType":"package",
+      "itemId": 20,
+      "quantity": 1,
+      "cardId": "ccof:iRexSkJA3DeOr31r3GB",
+      "cardName": "",
+      "saveCard": false,
+      "dueDate": "2021-02-06",
+      "tip": null
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_027647e4380c4b7f8c9a425fb9f5adbc
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1605018252154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,58 @@
+_id: req_3e650ff85af64b7989dd2acad6f41829
+type: Request
+parentId: fld_e2f1cc36718f4cc186ef23315a203ca7
+modified: 1624487944804
+created: 1624487944804
+url: "{{ _.base_url }}/schedules"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: customerId
+    value: "15"
+    description: ""
+    id: pair_4671db9e32a6406f81ba66cdf7a9638c
+    disabled: false
+  - name: activityId
+    value: "3"
+    description: ""
+    id: pair_3a78b8beecb4433ca41ce59a162a40c0
+    disabled: false
+  - name: dateStart
+    value: ""
+    description: ""
+    id: pair_95c0a1b185244058a333335a743a516f
+    disabled: true
+  - name: dateEnd
+    value: ""
+    description: ""
+    id: pair_0d84492fdcb94635b797ba4c1655bc29
+    disabled: true
+  - name: status
+    value: scheduled
+    description: ""
+    id: pair_b0d9ba8a744f4ebbb74d5aa52b1dd4d1
+    disabled: true
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_c1e488c25a6e4e67aa4c152eb045444b
+    disabled: true
+  - name: limit
+    value: "3"
+    description: ""
+    id: pair_0af3d8cd10474b219b515f350507bea8
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1608165476067
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

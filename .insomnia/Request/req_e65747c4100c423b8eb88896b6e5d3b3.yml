@@ -1,0 +1,35 @@
+_id: req_e65747c4100c423b8eb88896b6e5d3b3
+type: Request
+parentId: fld_ddcf0b437d64459d919146e804d06caf
+modified: 1624487955215
+created: 1624487955215
+url: "{{ _.base_url }}/site/checkout"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "due_date": "2021-03-13",
+      "quantity": "1",
+      "card_id": "ccof:QOP6FRORc5O3gdse4GB",
+      "product_id": 20,
+      "product_type": "package"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_dec4df79424f4a0d957f070c7bcff2b1
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1615064771272.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

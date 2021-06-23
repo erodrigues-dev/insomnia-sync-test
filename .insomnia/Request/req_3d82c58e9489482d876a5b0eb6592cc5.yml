@@ -1,0 +1,33 @@
+_id: req_3d82c58e9489482d876a5b0eb6592cc5
+type: Request
+parentId: fld_dab82b6ca2f9421fbd9acc82db200a4c
+modified: 1624487944826
+created: 1624487944826
+url: "{{ _.base_url }}/waivers"
+name: /
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 1,
+      "title": "any title updated",
+      "text": "any text updated"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8419d1555b414ace89b2b1b8baf1515a
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1619033887059.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

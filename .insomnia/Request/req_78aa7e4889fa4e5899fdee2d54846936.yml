@@ -1,0 +1,27 @@
+_id: req_78aa7e4889fa4e5899fdee2d54846936
+type: Request
+parentId: fld_dab82b6ca2f9421fbd9acc82db200a4c
+modified: 1624487944824
+created: 1624487944824
+url: "{{ _.base_url }}/waivers"
+name: /
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: title
+    value: other
+    description: ""
+    id: pair_e4841972d90f40228ca8460d84acec78
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1619561268488
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

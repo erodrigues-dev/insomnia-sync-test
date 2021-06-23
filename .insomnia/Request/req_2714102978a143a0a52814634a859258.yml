@@ -1,0 +1,58 @@
+_id: req_2714102978a143a0a52814634a859258
+type: Request
+parentId: fld_0ccbe4b696ef46a3980c4f86bc3bf935
+modified: 1624487944771
+created: 1624487944771
+url: "{{ base_url  }}/{{ resource  }}"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      disabled: true
+      fileName: /home/erodrigues/Downloads/Wallpapers NLW/Mobile - 1080x1920.jpg
+      id: pair_5be22c8a6b094b678b19382667ad9eef
+      name: image
+      type: file
+      value: ""
+    - description: ""
+      id: pair_0051adeefa504f178bd08ac2a641250b
+      name: id
+      value: "4"
+    - description: ""
+      disabled: false
+      id: pair_2246159c89ed4a53a18512e981ada283
+      name: name
+      value: any_name
+    - description: ""
+      id: pair_574e1c6c2493409a88520cac2074117f
+      name: email
+      value: any_email_002@gmail.com
+      disabled: true
+    - description: ""
+      id: pair_fd86c38f7a874912a3bee6d56a49ab8b
+      name: profileId
+      value: "2"
+    - name: phone
+      value: any_phone_value
+      description: ""
+      id: pair_44aa72d67c5a4f88938bee4d79c6e2e8
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585685119676.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

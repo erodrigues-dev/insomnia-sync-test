@@ -1,0 +1,24 @@
+_id: req_73387877a88a4f65af2389e88ef19e89
+type: Request
+parentId: fld_752f4d37788b492c8d3e69f8a3036118
+modified: 1624487944816
+created: 1624487944816
+url: "{{ base_url  }}/domain/default-permissions"
+name: default-permissions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585944236883.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

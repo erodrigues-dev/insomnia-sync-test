@@ -1,0 +1,35 @@
+_id: req_646906546f794ed2bca3270291143e47
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944841
+created: 1624487944841
+url: "{{ _.base_url }}/workout-profiles/4/logs/3/exercises/5"
+name: /exercises
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "test_update"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b56edf769be74675b616fed839d27c43
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1623999048465.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

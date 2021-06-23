@@ -1,0 +1,46 @@
+_id: req_20ac105bf0ae44de894dc7a84b1264cc
+type: Request
+parentId: fld_b950b0ee479b4bb9878ee5d1848928fa
+modified: 1624487955200
+created: 1624487955200
+url: "{{ _.base_url }}/site/products/search"
+name: /search
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: type
+    value: package
+    id: pair_a6784da074614adb837a50c33cdf17c2
+    disabled: true
+  - name: categories[]
+    value: massage
+    id: pair_0c0c99d282824058a9927f3e11bf660f
+    disabled: true
+  - name: categories[]
+    value: a la carte
+    id: pair_1adb090156f74d418a61a4d5baa3e7b0
+    disabled: true
+  - name: term
+    value: a
+    description: ""
+    id: pair_5cb701a20b5b458daf5fbb5e6b6eb3d3
+    disabled: true
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_566d24cd719e4bfd869fa79a6c0a3a06
+  - name: limit
+    value: "10"
+    description: ""
+    id: pair_07f4dfd5bec54f428a57d60641d10119
+headers: []
+authentication: {}
+metaSortKey: -1613980925219.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

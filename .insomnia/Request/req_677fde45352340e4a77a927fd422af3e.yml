@@ -1,0 +1,41 @@
+_id: req_677fde45352340e4a77a927fd422af3e
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944839
+created: 1624487944839
+url: "{{ _.base_url }}/workout-logs"
+name: /logs
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: workoutProfileId
+    value: "8"
+    description: ""
+    id: pair_009c3a67bc904fb9b734e8b57d814ba6
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_f0ab2a1e2fdf4efe8e7bec2ea7e1362e
+    disabled: true
+  - name: limit
+    value: "1"
+    description: ""
+    id: pair_2809d316f8ba4bdcbb6bc0c57107f816
+    disabled: true
+headers:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624134360567.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

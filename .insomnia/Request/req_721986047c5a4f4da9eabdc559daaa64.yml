@@ -1,0 +1,24 @@
+_id: req_721986047c5a4f4da9eabdc559daaa64
+type: Request
+parentId: fld_5fe0fe64c7b64763b372d970921bc67c
+modified: 1624487944763
+created: 1624487944763
+url: "{{ base_url  }}/{{ resource  }}/35"
+name: id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585873568547.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

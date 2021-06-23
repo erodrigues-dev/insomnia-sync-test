@@ -1,0 +1,21 @@
+_id: req_0a66c0211a0048658e58c720e48e9759
+type: Request
+parentId: fld_b950b0ee479b4bb9878ee5d1848928fa
+modified: 1624487955198
+created: 1624487955198
+url: "{{ _.base_url }}/site/products/categories"
+name: /categories
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1614027343604.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

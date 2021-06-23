@@ -1,0 +1,27 @@
+_id: req_c2c5173e061d442c83179898528e24d9
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944846
+created: 1624487944846
+url: "{{ _.base_url }}/workout-profiles/7"
+name: /profiles
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624314776795
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

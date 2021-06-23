@@ -1,0 +1,13 @@
+_id: fld_e9533a7462e640ba931aa7480f15deb3
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944784
+created: 1624487944784
+name: categories
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022100808

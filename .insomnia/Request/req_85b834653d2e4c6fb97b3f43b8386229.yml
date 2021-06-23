@@ -1,0 +1,53 @@
+_id: req_85b834653d2e4c6fb97b3f43b8386229
+type: Request
+parentId: fld_4c399c1f0d5a4501b630a3164762e0e2
+modified: 1624487944808
+created: 1624487944808
+url: "{{ base_url  }}/sessions"
+name: session update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: image
+      value: ""
+      id: pair_b37b9557f03a4d479e25b4b7e07a6df6
+      type: file
+      fileName: /home/erodrigues/Pictures/hero-3.jpeg
+      disabled: true
+    - name: name
+      value: Admin
+      description: ""
+      id: pair_8069bdadd1f64eda9d6792d1b43cca53
+    - name: email
+      value: admin@wellness.com
+      description: ""
+      id: pair_e62b2f89640449ef8036415d21541ca2
+      disabled: false
+    - name: specialty
+      value: Admin
+      description: ""
+      id: pair_5112dabf62b54c2cba7fba06eb2869ae
+      disabled: false
+    - name: confirmationCode
+      value: E054546F
+      description: ""
+      id: pair_8e719f40b3cf4e1d96474c9df6d31b98
+parameters: []
+headers:
+  - id: pair_57f63b97862443578e038af5b9422325
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  disabled: false
+metaSortKey: -1586022101158
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

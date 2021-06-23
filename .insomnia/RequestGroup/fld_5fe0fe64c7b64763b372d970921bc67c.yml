@@ -1,0 +1,13 @@
+_id: fld_5fe0fe64c7b64763b372d970921bc67c
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944760
+created: 1624487944760
+name: customers
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022101058

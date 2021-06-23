@@ -1,0 +1,44 @@
+_id: req_6f484a48ad1348feb255dab4a63c4ddc
+type: Request
+parentId: fld_5fe0fe64c7b64763b372d970921bc67c
+modified: 1624487944761
+created: 1624487944761
+url: "{{ base_url  }}/{{ resource  }}"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    disabled: true
+    id: pair_f94298289ca24f1787d06d48785c554a
+    name: name
+    value: "1"
+  - description: ""
+    disabled: true
+    id: pair_994f5d2080214e449a77cdb6dd663588
+    name: email
+    value: image
+  - description: ""
+    disabled: false
+    id: pair_182e90aee9a54c3598a8fdda52c37c33
+    name: page
+    value: "1"
+  - description: ""
+    disabled: true
+    id: pair_80a687ec4dc94a20bb53dd4bcc99da1f
+    name: limit
+    value: "2"
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585967792996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

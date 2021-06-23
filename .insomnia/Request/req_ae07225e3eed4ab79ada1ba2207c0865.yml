@@ -1,0 +1,27 @@
+_id: req_ae07225e3eed4ab79ada1ba2207c0865
+type: Request
+parentId: fld_ff5651c5d9fa4497b366a50b571ac083
+modified: 1624487955221
+created: 1624487955221
+url: "{{ _.base_url }}/site/book/days"
+name: /days
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: activity_id
+    value: "9"
+  - name: reference_date
+    value: 2021-04-01
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1616861655808
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

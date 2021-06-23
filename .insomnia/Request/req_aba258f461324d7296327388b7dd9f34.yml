@@ -1,0 +1,26 @@
+_id: req_aba258f461324d7296327388b7dd9f34
+type: Request
+parentId: fld_dab82b6ca2f9421fbd9acc82db200a4c
+modified: 1624487944829
+created: 1624487944829
+url: "{{ _.base_url }}/waivers/all"
+name: /all
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ignoreOfCustomerId
+    value: "16"
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1619473371583.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

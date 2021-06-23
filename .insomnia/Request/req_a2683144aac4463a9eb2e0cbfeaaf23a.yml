@@ -1,0 +1,57 @@
+_id: req_a2683144aac4463a9eb2e0cbfeaaf23a
+type: Request
+parentId: fld_5fe0fe64c7b64763b372d970921bc67c
+modified: 1624487944764
+created: 1624487944764
+url: "{{ base_url  }}/{{ resource  }}"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - fileName: /home/erodrigues/Pictures/upavet-logo.png
+      id: pair_6101770fea5d4e4f84bfa5bc12822e92
+      name: image
+      type: file
+      value: ""
+      disabled: true
+    - description: ""
+      id: pair_a67abda2d2024ed2804b904dbbd2b5f1
+      name: id
+      value: "17"
+    - description: ""
+      id: pair_a4aafb6907d9413fb630fe1a64cb5a23
+      name: name
+      value: any_update
+      disabled: false
+    - name: privateNotes
+      value: any_value
+      description: ""
+      id: pair_781aaa2d597b45e6a2c194487847006e
+    - name: phone
+      value: 1234-1234
+      description: ""
+      id: pair_44305571840b40e999d39c2d9c380299
+      disabled: false
+    - name: publicNotes
+      value: any_public_notes
+      description: ""
+      id: pair_7415666be3534765b493bef7f780633d
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585685119676.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,27 @@
+_id: req_715edde7c1c042fa999d8b72314c93e8
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944842
+created: 1624487944842
+url: "{{ _.base_url }}/workout-profiles/4/logs/3/exercises"
+name: /exercises
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624044152466.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

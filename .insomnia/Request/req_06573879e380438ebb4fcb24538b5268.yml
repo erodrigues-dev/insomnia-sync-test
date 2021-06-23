@@ -1,0 +1,24 @@
+_id: req_06573879e380438ebb4fcb24538b5268
+type: Request
+parentId: fld_7d4ff788d48243eaa310d5624eb8e14f
+modified: 1624487955209
+created: 1624487955209
+url: "{{ _.base_url }}/site/account/cards/ccof:QMQJUbPjWISXsxdg3GB"
+name: /cards
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+  disabled: false
+metaSortKey: -1614280156379.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

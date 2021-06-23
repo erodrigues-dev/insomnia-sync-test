@@ -1,0 +1,27 @@
+_id: req_2608447f46194eae90663869dc244c42
+type: Request
+parentId: fld_4797ddc6ef6946f1a9d3198a69f6d972
+modified: 1624487944848
+created: 1624487944848
+url: "{{ _.base_url }}/workout-logs/5"
+name: /logs/:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: ""
+    value: ""
+    description: ""
+    id: pair_dcd27c82d2f445179b7ede484425940c
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1624111808554.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

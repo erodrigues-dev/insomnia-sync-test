@@ -1,0 +1,55 @@
+_id: req_fd6f39aff15e4ae599734fcd6960dadb
+type: Request
+parentId: fld_0ccbe4b696ef46a3980c4f86bc3bf935
+modified: 1624487944768
+created: 1624487944768
+url: "{{ base_url  }}/{{ resource  }}"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      fileName: /home/erodrigues/Downloads/weather-icons-master/sass/weather-icons-wind.scss
+      id: pair_c41c41825a964ee79237a53c236d2226
+      name: image
+      type: file
+      value: ""
+      disabled: true
+    - description: ""
+      disabled: false
+      id: pair_bf44e86325c64858ba5eb0592e078807
+      multiline: false
+      name: name
+      type: text
+      value: any_name
+    - description: ""
+      id: pair_fd09110266a5497cb12afedeac7d8bfe
+      name: email
+      value: newform@test.com
+    - description: ""
+      id: pair_7e932a4c1e1d468ca7c6b97252a95466
+      name: phone
+      value: any_phone
+    - description: ""
+      id: pair_221aec0189354a6393d746f15e62d5e9
+      name: profileId
+      value: "2"
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585779344099.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

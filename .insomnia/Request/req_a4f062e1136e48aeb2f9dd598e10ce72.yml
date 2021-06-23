@@ -1,0 +1,23 @@
+_id: req_a4f062e1136e48aeb2f9dd598e10ce72
+type: Request
+parentId: fld_4b92ad04e1b846929f1be477e526df3c
+modified: 1624487944822
+created: 1624487944822
+url: "{{ _.base_url }}/specialties/5"
+name: /:id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1618292100063.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

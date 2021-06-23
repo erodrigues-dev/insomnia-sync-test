@@ -1,0 +1,13 @@
+_id: fld_828ef71c150b4532820387e8ef3b5add
+type: RequestGroup
+parentId: wrk_9469607c859d48059f69a290e23463b8
+modified: 1624487944705
+created: 1624487944705
+name: admin
+description: ""
+environment:
+  base_url: "{{ base_url }}/admin"
+environmentPropertyOrder:
+  "&":
+    - base_url
+metaSortKey: -1000000000

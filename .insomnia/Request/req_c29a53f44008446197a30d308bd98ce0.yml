@@ -1,0 +1,33 @@
+_id: req_c29a53f44008446197a30d308bd98ce0
+type: Request
+parentId: fld_35b5a6e8d70a4fe5b127098581033096
+modified: 1624487944781
+created: 1624487944781
+url: "{{ base_url }}/activities/{{ 6 }}/schedules/days"
+name: days
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: start
+    value: 2021-01-07
+    description: ""
+    id: pair_9286a8ef700e473f9ffb0ee3d4036e73
+    disabled: false
+  - name: end
+    value: 2021-01-31
+    description: ""
+    id: pair_e2ab417a141a40739a0dd353e661fd3c
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1599347007024.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

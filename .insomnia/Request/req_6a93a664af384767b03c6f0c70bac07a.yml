@@ -1,0 +1,32 @@
+_id: req_6a93a664af384767b03c6f0c70bac07a
+type: Request
+parentId: fld_4c399c1f0d5a4501b630a3164762e0e2
+modified: 1624487944813
+created: 1624487944813
+url: "{{ base_url  }}/sessions/send-confirmation"
+name: send-confirmation
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "Admin",
+      "email": "admin@wellness.com"
+    }
+parameters: []
+headers:
+  - id: pair_57f63b97862443578e038af5b9422325
+    name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1585981370024
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

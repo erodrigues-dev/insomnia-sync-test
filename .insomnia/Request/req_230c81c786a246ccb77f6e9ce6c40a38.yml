@@ -1,0 +1,36 @@
+_id: req_230c81c786a246ccb77f6e9ce6c40a38
+type: Request
+parentId: fld_c87ce9a5b4b64ed6a6822ee2d9eb01db
+modified: 1624487944792
+created: 1624487944792
+url: "{{ base_url }}/{{ resource }}"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "id": 20,
+    	"customerId": 1,
+    	"type": "percent",
+    	"value": 50,
+    	"relationType": "package",
+    	"relationId": 3
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_b571b7a3ef7b446c940f37996c22c3d5
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1602920366097
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

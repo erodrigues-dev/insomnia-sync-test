@@ -1,0 +1,23 @@
+_id: req_b5578e2c932f46d58ad4c2e68c39324c
+type: Request
+parentId: fld_e2f1cc36718f4cc186ef23315a203ca7
+modified: 1624487944806
+created: 1624487944806
+url: "{{ _.base_url }}/schedules/{{ 18 }}/cancel"
+name: cancel
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1608165476042
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

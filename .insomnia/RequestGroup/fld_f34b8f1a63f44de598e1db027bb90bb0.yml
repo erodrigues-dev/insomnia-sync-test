@@ -1,0 +1,13 @@
+_id: fld_f34b8f1a63f44de598e1db027bb90bb0
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944773
+created: 1624487944773
+name: packages
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022100908

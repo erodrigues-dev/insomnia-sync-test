@@ -1,0 +1,31 @@
+_id: req_9359d62566644f5f9e2e5421c56941de
+type: Request
+parentId: fld_146d5e1d8c3b455eb86fcf752caa94d2
+modified: 1624487944831
+created: 1624487944831
+url: "{{ _.base_url }}/customers/16/waivers"
+name: /
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "waiverId": 15
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_576f11379a1a4952a93117fb30893790
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1620327640247
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

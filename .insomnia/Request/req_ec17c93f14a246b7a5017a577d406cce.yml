@@ -1,0 +1,33 @@
+_id: req_ec17c93f14a246b7a5017a577d406cce
+type: Request
+parentId: fld_e9533a7462e640ba931aa7480f15deb3
+modified: 1624487944786
+created: 1624487944786
+url: "{{ base_url  }}/{{ resource  }}"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "C001",
+    	"type": "activity"
+    }
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: application/json
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585779344099.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

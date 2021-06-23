@@ -1,0 +1,44 @@
+_id: req_8d5184a4aebb4a889edf887f644240dc
+type: Request
+parentId: fld_35b5a6e8d70a4fe5b127098581033096
+modified: 1624487944780
+created: 1624487944780
+url: "{{ base_url }}/activities/schedules"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "id": 10,
+        "title": "10 day cryo chalenge + compression boots",
+        "color": "#7159c1",
+        "date": "2020-12-01",
+        "start": "08:00:00",
+        "end": "09:00:00",
+        "recurrent": true,
+        "repeatEvery": 1,
+        "frequency": "WEEKLY",
+        "weekdays": "MON,TUE,WED",
+        "endsIn": "AFTER",
+        "until": null,
+        "ocurrences": 100,
+        "activityId": 9
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a1bcbc0507284427850435bae47e1de0
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1597988390518.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

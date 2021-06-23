@@ -1,0 +1,23 @@
+_id: req_853db40f8f2b4cac9ecd799e2ec0182e
+type: Request
+parentId: fld_146d5e1d8c3b455eb86fcf752caa94d2
+modified: 1624487944835
+created: 1624487944835
+url: "{{ _.base_url }}/customers/16/waivers/activity/3"
+name: /:activityId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1620519233186.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

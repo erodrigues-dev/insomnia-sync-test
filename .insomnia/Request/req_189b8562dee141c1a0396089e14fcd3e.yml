@@ -1,0 +1,23 @@
+_id: req_189b8562dee141c1a0396089e14fcd3e
+type: Request
+parentId: fld_f9a0e02d563346e3bacdbf89597e5c25
+modified: 1624487955212
+created: 1624487955212
+url: "{{ _.base_url }}/site/orders/29"
+name: /:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1614332826171.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

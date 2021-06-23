@@ -1,0 +1,67 @@
+_id: req_1a412b9f57c44362ad6cc0a86434a17e
+type: Request
+parentId: fld_f521a0fe54ee433e9f65469d0a09dfd8
+modified: 1624487944744
+created: 1624487944744
+url: "{{ base_url  }}/{{ resource  }}"
+name: create
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      disabled: true
+      fileName: /home/erodrigues/Pictures/upavet-logo.png
+      id: pair_c3bec0cd51a74fbebfd38a04a89bfe4e
+      name: image
+      type: file
+      value: ""
+    - description: ""
+      id: pair_f07f2cf951e64f129487e23aca56ec2d
+      name: name
+      value: Activity 006
+    - description: ""
+      id: pair_b0e60951ff37400da64476054c188191
+      name: description
+      value: description activity
+    - description: ""
+      id: pair_d57e231f19d4484fbe991bcddc354a63
+      name: price
+      value: "120.50"
+    - description: ""
+      id: pair_01b895bc8f0c4d0e8c85e72b9d544d5f
+      name: duration
+      value: "30"
+    - description: ""
+      id: pair_9fddbc175ca74ecf9cc5cd317f3eb634
+      name: employeeId
+      value: "1"
+    - name: categoryId
+      value: "1"
+      description: ""
+      id: pair_a1a310d7ddcb41fb971d8d4f221f3e69
+    - name: maxPeople
+      value: "6"
+      description: ""
+      id: pair_428c4ebd8f77480084a5144291e83da2
+    - name: showInWeb
+      value: "false"
+      description: ""
+      id: pair_3050c3feffa849d8b6bf966138f6cc15
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585779344099.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

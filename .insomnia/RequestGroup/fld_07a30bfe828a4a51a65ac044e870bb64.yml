@@ -1,0 +1,13 @@
+_id: fld_07a30bfe828a4a51a65ac044e870bb64
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944752
+created: 1624487944752
+name: profiles
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022100858

@@ -1,0 +1,23 @@
+_id: req_2b743e26a0ae4335b61a63cd45078415
+type: Request
+parentId: fld_c1d67076300545dda90044e918e2ccf4
+modified: 1624487955228
+created: 1624487955228
+url: "{{ _.base_url }}/site/waivers/add-customer/15"
+name: /add-customer/:waiverId
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1623788759973.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

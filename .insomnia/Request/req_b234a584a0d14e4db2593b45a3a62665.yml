@@ -1,0 +1,34 @@
+_id: req_b234a584a0d14e4db2593b45a3a62665
+type: Request
+parentId: fld_d5faa23d7486458b9c616edf8820d298
+modified: 1624487944800
+created: 1624487944800
+url: "{{ base_url }}/checkout/pay-with-money"
+name: pay-with-money
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "customerId":16,
+      "itemType":"activity",
+      "itemId": 9,
+      "quantity": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_027647e4380c4b7f8c9a425fb9f5adbc
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1605018252204
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

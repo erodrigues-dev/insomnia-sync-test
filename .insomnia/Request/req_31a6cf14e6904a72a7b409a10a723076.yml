@@ -1,0 +1,23 @@
+_id: req_31a6cf14e6904a72a7b409a10a723076
+type: Request
+parentId: fld_4b92ad04e1b846929f1be477e526df3c
+modified: 1624487944821
+created: 1624487944821
+url: "{{ _.base_url }}/specialties/5"
+name: /:id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1618371735057.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

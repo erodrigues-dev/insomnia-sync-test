@@ -1,0 +1,23 @@
+_id: req_8fc768b87e734b86b0f5125f4d3970b6
+type: Request
+parentId: fld_7f912d13ffe74eaa8856f6b178d1891b
+modified: 1624487944797
+created: 1624487944797
+url: "{{ base_url }}/orders/{{ 31 }}"
+name: :id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1604603823236
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

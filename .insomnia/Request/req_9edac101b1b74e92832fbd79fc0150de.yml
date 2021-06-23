@@ -1,0 +1,27 @@
+_id: req_9edac101b1b74e92832fbd79fc0150de
+type: Request
+parentId: fld_ddcf0b437d64459d919146e804d06caf
+modified: 1624487955214
+created: 1624487955214
+url: "{{ _.base_url }}/site/checkout/discounts"
+name: /discount
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: relation_type
+    value: activity
+  - name: relation_id
+    value: "7"
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+metaSortKey: -1615511918382
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

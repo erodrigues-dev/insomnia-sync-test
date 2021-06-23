@@ -1,0 +1,24 @@
+_id: req_110c156a3a3b40bd9a26b30ff91523bb
+type: Request
+parentId: fld_7d4ff788d48243eaa310d5624eb8e14f
+modified: 1624487955203
+created: 1624487955203
+url: "{{ _.base_url }}/site/account"
+name: /
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+  disabled: false
+metaSortKey: -1614285201242.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

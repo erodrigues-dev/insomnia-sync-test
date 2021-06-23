@@ -1,0 +1,88 @@
+_id: req_be7479e8f1d7483f95f02812dc84b1f6
+type: Request
+parentId: fld_f34b8f1a63f44de598e1db027bb90bb0
+modified: 1624487944777
+created: 1624487944777
+url: "{{ base_url  }}/{{ resource  }}"
+name: update
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - description: ""
+      disabled: true
+      fileName: /home/erodrigues/Pictures/upavet-logo.png
+      id: pair_bf79b8ca253f40f788bbcc9f6f41d021
+      name: image
+      type: file
+      value: ""
+    - description: ""
+      id: pair_c19dba12d1134425b5c5a4b4ec0ee470
+      name: id
+      value: "2"
+    - description: ""
+      id: pair_7496a54e906e447f80bae1f073c6c816
+      name: name
+      value: package 002
+    - description: ""
+      id: pair_79947c2fabf44e3ea66971bc57c850c1
+      name: description
+      value: description package
+    - description: ""
+      id: pair_0703429db3b248428c303ce3d8764000
+      name: price
+      value: "120"
+    - description: ""
+      disabled: true
+      id: pair_3f4836f60f1c4730bf787e9d3bd6dba6
+      name: expiration
+      value: 2020-08-1
+    - description: ""
+      id: pair_4fce9df40c9b42078dcf9a7218914934
+      name: showInApp
+      value: "true"
+      disabled: true
+    - description: ""
+      disabled: true
+      id: pair_e577a23462c44f6a80bb00c1ce27aa30
+      name: showInWeb
+      value: "false"
+    - name: categoryId
+      value: "1"
+      description: ""
+      id: pair_43bbdf99170144a7b47464429338bd45
+    - name: recurrencyPay
+      value: one-time
+      description: ""
+      id: pair_3aa878f3ac414fa8a370cc886501f6ce
+    - name: type
+      value: unlimited
+      description: ""
+      id: pair_477a1ca672ca4dcda115b8e85b89f941
+    - name: total
+      value: "40"
+      description: ""
+      id: pair_9597821457164a068e668ba00acd7cba
+      disabled: true
+    - description: ""
+      disabled: false
+      id: pair_a9f853f372554202907537f31f76db44
+      name: activities[]
+      value: '{ "id": 2 }'
+parameters: []
+headers:
+  - id: pair_ee99caf3cc984d65bbf55e9939f0670a
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585767566046.5938
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

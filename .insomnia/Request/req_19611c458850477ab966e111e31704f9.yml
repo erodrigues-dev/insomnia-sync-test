@@ -1,0 +1,39 @@
+_id: req_19611c458850477ab966e111e31704f9
+type: Request
+parentId: fld_146d5e1d8c3b455eb86fcf752caa94d2
+modified: 1624487944833
+created: 1624487944833
+url: "{{ _.base_url }}/customers/16/waivers"
+name: /
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: waiverId
+      value: "5"
+      id: pair_80b3d05e0e0e4de090fb0b44c48e87ee
+      disabled: false
+    - name: signImage
+      value: ""
+      description: ""
+      id: pair_49317295dea64628aad7a3bdf9a6ab2a
+      type: file
+      fileName: /home/erodrigues/Pictures/elite_logo.png
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_576f11379a1a4952a93117fb30893790
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1620136047307.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

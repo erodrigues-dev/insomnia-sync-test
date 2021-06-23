@@ -1,0 +1,35 @@
+_id: req_a0bef0a23afe42a19c3b92e0ce597093
+type: Request
+parentId: fld_4b92ad04e1b846929f1be477e526df3c
+modified: 1624487944818
+created: 1624487944818
+url: "{{ _.base_url }}/specialties"
+name: /
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "2"
+    id: pair_553d3eb6e82642398e4bd8db503f943a
+    disabled: true
+  - name: limit
+    value: "2"
+    id: pair_eb6c351a96994f109fe80bb40d6d6913
+    disabled: true
+  - name: name
+    value: mass
+    id: pair_1e801a66d8e8497babab95ccc1f5b375
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1618531005045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

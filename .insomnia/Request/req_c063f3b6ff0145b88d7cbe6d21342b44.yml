@@ -1,0 +1,44 @@
+_id: req_c063f3b6ff0145b88d7cbe6d21342b44
+type: Request
+parentId: fld_e9533a7462e640ba931aa7480f15deb3
+modified: 1624487944785
+created: 1624487944785
+url: "{{ base_url  }}/{{ resource  }}"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    disabled: true
+    id: pair_f94298289ca24f1787d06d48785c554a
+    name: name
+    value: update
+  - description: ""
+    disabled: false
+    id: pair_182e90aee9a54c3598a8fdda52c37c33
+    name: page
+    value: "1"
+  - description: ""
+    disabled: false
+    id: pair_80a687ec4dc94a20bb53dd4bcc99da1f
+    name: limit
+    value: "2"
+  - name: type
+    value: package
+    description: ""
+    id: pair_88493740cf4b4eb0a6ee1b019bc5f699
+    disabled: true
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585967792996
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

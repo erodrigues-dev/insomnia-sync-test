@@ -1,0 +1,32 @@
+_id: req_308c60b629c54e70b090a96a0c26492e
+type: Request
+parentId: fld_7d4ff788d48243eaa310d5624eb8e14f
+modified: 1624487955208
+created: 1624487955208
+url: "{{ _.base_url }}/site/account/cards"
+name: /cards
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "card_nonce":"cnon:card-nonce-ok"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_97b8df185b714f86a43067f9c7c0c259
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+  disabled: false
+metaSortKey: -1614280156429.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

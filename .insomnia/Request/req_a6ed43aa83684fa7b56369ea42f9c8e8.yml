@@ -1,0 +1,63 @@
+_id: req_a6ed43aa83684fa7b56369ea42f9c8e8
+type: Request
+parentId: fld_35b5a6e8d70a4fe5b127098581033096
+modified: 1624487944779
+created: 1624487944779
+url: "{{ base_url }}/activities/schedules"
+name: create
+description: |-
+  ```ts
+  export class ActivitySchedule{
+    id?: number;
+    activityId: number;
+    title: string;
+    color: string;
+    date: Date;
+    start: string;
+    end: string;
+
+    recurrent: boolean;
+    repeatEvery?: number;
+    frequency?: FrequencyEnum;
+    weekdays?: string;
+    endsIn?: EndsInEnum;
+    until?: Date;
+    ocurrences?: number;
+
+    createdAt?: Date;
+    updatedAt?: Date;
+  }
+  ```
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"activityId": 9,
+    	"title": "10 day cryo chalenge + compression boots",
+    	"color": "#7159c1",
+    	"date": "2020-12-01",
+    	"start": "12:00",
+    	"end": "13:00",
+    	"recurrent": true,
+    	"repeatEvery": 1,
+    	"frequency": "WEEKLY",
+    	"endsIn": "NEVER",
+      "weekdays": "MO,TU,WE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a1bcbc0507284427850435bae47e1de0
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1598894134856
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_f3b488cb01764079af7224fc4c14d169
+type: Request
+parentId: fld_7d4ff788d48243eaa310d5624eb8e14f
+modified: 1624487955204
+created: 1624487955204
+url: "{{ _.base_url }}/site/account"
+name: /
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 16,
+      "name": "Alicia Clark",
+      "email": "alicia_clark@ftwd.com",
+      "phone": "+55(21)91234-1234",
+      "password":"12345",
+      "confirm_password":""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_2815bc1602f24fe3851884eefab76e8c
+authentication:
+  type: bearer
+  token: "{{ _.token_site }}"
+  disabled: false
+metaSortKey: -1614284640719
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

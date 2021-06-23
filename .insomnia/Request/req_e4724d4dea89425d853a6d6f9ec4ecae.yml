@@ -1,0 +1,24 @@
+_id: req_e4724d4dea89425d853a6d6f9ec4ecae
+type: Request
+parentId: fld_5fe0fe64c7b64763b372d970921bc67c
+modified: 1624487944765
+created: 1624487944765
+url: "{{ base_url  }}/{{ resource  }}/16/activities"
+name: :id/activities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585826456323.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

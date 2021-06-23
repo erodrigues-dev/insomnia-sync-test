@@ -1,0 +1,24 @@
+_id: req_9cf42395d3af40abb74ccf0768486a86
+type: Request
+parentId: fld_5fe0fe64c7b64763b372d970921bc67c
+modified: 1624487944766
+created: 1624487944766
+url: "{{ base_url  }}/{{ resource  }}/30"
+name: id
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  token: "{{ token  }}"
+  type: bearer
+metaSortKey: -1585850012435.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

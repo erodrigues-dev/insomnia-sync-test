@@ -1,0 +1,38 @@
+_id: req_77ce2b164fbf49159f1519cfa8429bf8
+type: Request
+parentId: fld_7f912d13ffe74eaa8856f6b178d1891b
+modified: 1624487944797
+created: 1624487944797
+url: "{{ base_url }}/orders"
+name: index
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: page
+    value: "1"
+    description: ""
+    id: pair_67bc8193075946babad926b006ca4f29
+    disabled: false
+  - name: limit
+    value: "10"
+    description: ""
+    id: pair_2455c110556446d29e321643db218d71
+    disabled: false
+  - name: customerId
+    value: "16"
+    description: ""
+    id: pair_fa95e2500ff04fd8bd451c713a66bfa4
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{{ token }}"
+metaSortKey: -1604623817357
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

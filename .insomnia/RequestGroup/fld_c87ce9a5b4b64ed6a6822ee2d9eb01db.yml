@@ -1,0 +1,13 @@
+_id: fld_c87ce9a5b4b64ed6a6822ee2d9eb01db
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944789
+created: 1624487944789
+name: discounts
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022101070.5

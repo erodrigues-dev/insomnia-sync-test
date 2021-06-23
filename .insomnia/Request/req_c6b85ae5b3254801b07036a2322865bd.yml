@@ -1,0 +1,29 @@
+_id: req_c6b85ae5b3254801b07036a2322865bd
+type: Request
+parentId: fld_4c399c1f0d5a4501b630a3164762e0e2
+modified: 1624487944812
+created: 1624487944812
+url: "{{ base_url  }}/sessions"
+name: permissions
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params: []
+parameters: []
+headers:
+  - id: pair_57f63b97862443578e038af5b9422325
+    name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ token }}"
+  disabled: false
+metaSortKey: -1586022101133
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

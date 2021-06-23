@@ -1,0 +1,29 @@
+_id: req_d7d68686a10b4aa4a2bd2c37112cb7fe
+type: Request
+parentId: fld_4c399c1f0d5a4501b630a3164762e0e2
+modified: 1624487944814
+created: 1624487944814
+url: "{{ base_url  }}/sessions/recover-password"
+name: recover-password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "admin@wellness.com"
+    }
+parameters: []
+headers:
+  - id: pair_57f63b97862443578e038af5b9422325
+    name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1585994947052
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

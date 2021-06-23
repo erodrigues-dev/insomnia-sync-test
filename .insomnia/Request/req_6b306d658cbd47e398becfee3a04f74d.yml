@@ -1,0 +1,21 @@
+_id: req_6b306d658cbd47e398becfee3a04f74d
+type: Request
+parentId: fld_b950b0ee479b4bb9878ee5d1848928fa
+modified: 1624487955196
+created: 1624487955196
+url: "{{ _.base_url }}/site/products/21/package"
+name: /:id/:type
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1614073761989.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

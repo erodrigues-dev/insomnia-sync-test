@@ -1,0 +1,34 @@
+_id: req_059f7ea10e7644f38e4eb4c346a6bfa6
+type: Request
+parentId: fld_9c2955f709d342b0a269d38bd2c157af
+modified: 1624487955188
+created: 1624487955188
+url: "{{ _.base_url }}/site/sessions/signup"
+name: /signup
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "User referral",
+      "email": "newuser@trash-mail.com",
+      "code": "d8c7fd815fcec373",
+      "phone": "21 1234-1234",
+      "password": "12341234",
+      "referral_code": "C2C17C51"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a37522a44ff44cada8f5fd56abaa1e9c
+authentication: {}
+metaSortKey: -1613678165770
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

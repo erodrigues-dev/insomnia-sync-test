@@ -1,0 +1,13 @@
+_id: fld_0ccbe4b696ef46a3980c4f86bc3bf935
+type: RequestGroup
+parentId: fld_828ef71c150b4532820387e8ef3b5add
+modified: 1624487944767
+created: 1624487944767
+name: employees
+description: ""
+environment:
+  resource: "{% request 'folder', '', 0 %}"
+environmentPropertyOrder:
+  "&":
+    - resource
+metaSortKey: -1586022101008

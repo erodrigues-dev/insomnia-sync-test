@@ -1,0 +1,32 @@
+_id: req_853fa442a6d047c8971fffce85e53504
+type: Request
+parentId: fld_4b92ad04e1b846929f1be477e526df3c
+modified: 1624487944820
+created: 1624487944820
+url: "{{ _.base_url }}/specialties"
+name: /
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 5,
+      "name": "updated by insomnia"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_42f88de24df04ca4b90f495402af9133
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1618212465069.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
